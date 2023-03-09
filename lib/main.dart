@@ -64,9 +64,9 @@ class AnimationScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: state.size,
                     color: Color.fromRGBO(
-                      state.color1,
                       state.color2,
                       state.color3,
+                      state.color1,
                       1,
                     ),
                   ),
@@ -107,9 +107,9 @@ class AnimationScreen extends StatelessWidget {
               height: 300,
               width: 200,
               color: Color.fromRGBO(
-                color1,
                 color2,
                 color3,
+                color1,
                 1,
               ),
               child: Text(
@@ -117,9 +117,9 @@ class AnimationScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: size,
                   color: Color.fromRGBO(
-                    color1,
                     color2,
                     color3,
+                    color1,
                     1,
                   ),
                 ),
